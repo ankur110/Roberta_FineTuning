@@ -12,8 +12,8 @@ This project compares the **full fine-tuning** of RoBERTa with PEFT methods usin
 
 The repository contains the following files:
 
-1. `full_finetuning.ipynb`: Full fine-tuning of the RoBERTa-large model.
-2. `peft_roberta.ipynb`: Parameter-Efficient Fine-Tuning (PEFT) using LoRA.
+1. `full-finetuning.ipynb`: Full fine-tuning of the RoBERTa-large model.
+2. `peft-roberta.ipynb`: Parameter-Efficient Fine-Tuning (PEFT) using LoRA.
 3. `peft_vs_fulltraining.ipynb`: Performance comparison of the two approaches.
 
 ---
@@ -43,7 +43,7 @@ The following Python libraries are used in this project:
 
 ## Notebooks Overview
 
-### 1. Full Fine-Tuning (`full_finetuning.ipynb`)
+### 1. Full Fine-Tuning (`full-finetuning.ipynb`)
 This notebook performs full fine-tuning of the RoBERTa-large model on the AG News classification task. All model parameters are updated during training.
 
 #### Training Metrics (Sample):
@@ -53,7 +53,7 @@ This notebook performs full fine-tuning of the RoBERTa-large model on the AG New
 | 5000  | 0.189300      | 0.194171       | 0.943158 | 0.943018 | 0.943037  | 0.943158 |
 | 7000  | 0.139800      | 0.196201       | 0.949737 | 0.949613 | 0.949593  | 0.949737 |
 
-### 2. Parameter-Efficient Fine-Tuning (`peft_roberta.ipynb`)
+### 2. Parameter-Efficient Fine-Tuning (`peft-roberta.ipynb`)
 This notebook demonstrates PEFT using **LoRA** to fine-tune the RoBERTa-large model. Only a small subset of parameters is updated.
 
 #### Training Metrics (Sample):
@@ -102,8 +102,8 @@ This notebook evaluates and compares the performance of the fully fine-tuned mod
    ```
 
 3. Run the Jupyter notebooks in the following order:
-   - `full_finetuning.ipynb`
-   - `peft_roberta.ipynb`
+   - `full-finetuning.ipynb`
+   - `peft-roberta.ipynb`
    - `peft_vs_fulltraining.ipynb`
 
 4. Customize the training parameters in the notebooks as needed.
