@@ -119,5 +119,4 @@ This notebook evaluates and compares the performance of the fully fine-tuned mod
 ## References
 - [Hugging Face Transformers](https://huggingface.co/transformers/)
 - [LoRA: Low-Rank Adaptation](https://arxiv.org/abs/2106.09685)
-- [AG News Dataset](https://huggingface.co/datasets/ag_news)
 
